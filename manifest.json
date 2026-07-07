@@ -1,0 +1,19 @@
+{
+  "appStoreName": "Ski Review Studio",
+  "bundleId": "com.yi.skimvpapp",
+  "canClaimADA95": false,
+  "canClaimADAReadiness": false,
+  "evidenceBoundary": "This is a deployable local static-page package for Ski Review Studio privacy and support URLs. It is not proof that the URLs are live or entered in App Store Connect.",
+  "files": [
+    "index.html",
+    "privacy.html",
+    "support.html"
+  ],
+  "liveHostingReceiptCaptured": false,
+  "notAppStoreConnectEnteredEvidence": true,
+  "privacyPolicyUrlCandidate": "https://roik378.github.io/skireviewstudio-policy/privacy/",
+  "product": "SkiMVPApp",
+  "status": "deployable_local_package_needs_live_hosting_receipt",
+  "supportEmail": "roik378@gmail.com",
+  "supportUrlCandidate": "https://roik378.github.io/skireviewstudio-policy/support/"
+}
