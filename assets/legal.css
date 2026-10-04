@@ -38,12 +38,12 @@ a:focus-visible, main:focus-visible { outline: 2px solid #91316c; outline-offset
   gap: 10px;
   min-height: 44px;
   color: #242424;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   text-decoration: none;
 }
 .brand img { width: 32px; height: 32px; border-radius: 6px; }
-.nav-links { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 14px; font-weight: 600; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 0.875rem; font-weight: 600; }
 .nav-links a { display: inline-flex; align-items: center; min-height: 44px; color: #575b59; text-decoration: none; }
 .nav-links a[aria-current="page"] { color: #165d6e; text-decoration: underline; text-decoration-thickness: 2px; }
 main {
@@ -53,21 +53,21 @@ main {
   padding: 40px 0 64px;
   overflow-wrap: anywhere;
 }
-h1 { margin: 0; font-size: 36px; line-height: 1.2; font-weight: 700; }
-h2 { margin: 0 0 10px; font-size: 23px; line-height: 1.35; font-weight: 650; }
-p { margin: 14px 0 0; color: #454946; font-size: 16px; line-height: 1.7; }
+h1 { margin: 0; font-size: 2.25rem; line-height: 1.2; font-weight: 700; }
+h2 { margin: 0 0 10px; font-size: 1.4375rem; line-height: 1.35; font-weight: 650; }
+p { margin: 14px 0 0; color: #454946; font-size: 1rem; line-height: 1.7; }
 section { margin-top: 32px; }
 .resource-link { margin: 0; border-bottom: 1px solid #dedfdf; }
 .resource-link:first-of-type { border-top: 1px solid #dedfdf; }
 .resource-link a { display: flex; align-items: center; min-height: 60px; font-weight: 600; }
 .resource-links { margin-top: 28px; }
 footer { border-top: 1px solid #dedfdf; }
-.footer-inner { min-height: 74px; padding: 16px 0; color: #656a66; font-size: 13px; line-height: 1.5; overflow-wrap: anywhere; }
+.footer-inner { min-height: 74px; padding: 16px 0; color: #656a66; font-size: 0.8125rem; line-height: 1.5; overflow-wrap: anywhere; }
 .footer-inner a { display: inline-flex; align-items: center; min-height: 44px; }
 @media (max-width: 640px) {
   .nav-inner { align-items: flex-start; flex-direction: column; }
   main { padding-top: 32px; }
-  h1 { font-size: 30px; }
+  h1 { font-size: 1.875rem; }
 }
 @media print {
   .site-nav, .skip-link, footer { display: none; }
